@@ -1,0 +1,30 @@
+{
+  "name": "kristina-fox",
+  "version": "1.0.0",
+  "description": "Модуль для взаимодействия с API Кристины Лис",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tailsjs/kristina-fox.git"
+  },
+  "keywords": [
+    "kristina-fox",
+    "fox",
+    "kristina",
+    "lis",
+    "kristina-lis"
+  ],
+  "author": "tailsjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tailsjs/kristina-fox/issues"
+  },
+  "homepage": "https://github.com/tailsjs/kristina-fox#readme"
+}
