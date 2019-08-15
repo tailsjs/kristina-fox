@@ -1,5 +1,7 @@
 # kristina-fox
 Модуль для взаимодействия с API Кристины Лис
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/deb89212fae74e809a4134feab1abc65)](https://www.codacy.com/app/tailsjs/kristina-fox?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tailsjs/kristina-fox&amp;utm_campaign=Badge_Grade)
 ## Установка:
 * Yarn:
 
