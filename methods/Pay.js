@@ -24,7 +24,7 @@ module.exports = class Pay {
 				code: result.error.error_code,
 				message: result.error.error_message
 			});
-		};
+		}
 	return result;
 	}
-}
+};

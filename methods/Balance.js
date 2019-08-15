@@ -18,7 +18,7 @@ module.exports = class Balance {
 				code: result.error.error_code, 
 				message: result.error.error_message
 			});
-		};
+		}
 	return result;
 	}
 };
