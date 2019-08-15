@@ -11,7 +11,7 @@ module.exports = class Pay {
 				code: 1,
 				message: "You forgot the vk_user_id parameter!"
 			});
-		};
+		}
 		if (!params.count) {
 			throw new ParamError({
 				code: 2,
