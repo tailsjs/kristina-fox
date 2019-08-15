@@ -1,5 +1,5 @@
 let fetch = require("node-fetch");
-let { ParamError, APIError } = require('../errors/Errors.js');
+let { ParamError, APIError } = require("../errors/Errors.js");
 
 module.exports = class Catalog {
 	constructor(options = {}){
@@ -47,7 +47,7 @@ module.exports = class Catalog {
 		if (!params.vk_user_id) {
 			throw new ParamError({
 				code: 1,
-				message: "You forgot the vk_user_id parameter!"
+				message: "You forgot the vk_usеr_id parameter!"
 			});
 		};
 		if (!params.title) {
@@ -69,7 +69,7 @@ module.exports = class Catalog {
 		if (!params.vk_user_id) {
 			throw new ParamError({
 				code: 1,
-				message: "You forgot the vk_user_id parameter!"
+				message: "You forgоt the vk_user_id parameter!"
 			});
 		};
 		if (!params.status) {

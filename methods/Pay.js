@@ -1,5 +1,5 @@
 let fetch = require("node-fetch");
-let { ParamError, APIError } = require('../errors/Errors.js');
+let { ParamError, APIError } = require("../errors/Errors.js");
 
 module.exports = class Pay {
 	constructor(options = {}){
