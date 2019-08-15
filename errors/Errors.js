@@ -5,7 +5,7 @@ class ParamError extends Error {
     this.message = message;
     this.code = code;
   }
-};
+}
 class APIError extends Error {
   constructor({ code, message }) {
     super(message);
