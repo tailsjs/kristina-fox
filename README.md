@@ -21,6 +21,10 @@ let KF = require("kristina-fox")
 let kf = new KF({
 token: token
 })
+
+let balance = await kf.balance.get({ // Тут метод
+vk_user_id: 227972326
+})
 ```
 |Аргумент|Тип|Необходим|Описание|
 |-|-|-|-|
