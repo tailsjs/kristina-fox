@@ -11,7 +11,7 @@ module.exports = class Balance {
 				code: 1,
 				message: "You forgot the vk_user_id parameter!"
 			});
-		};
+		}
 		let result = await (await fetch(`http://api.unf0x.ru/kristine-public-api/balance.get?token=${this.options.token}&vk_user_id=${params.vk_user_id}`)).json();
 		if (result.error) {
 			throw new APIError({

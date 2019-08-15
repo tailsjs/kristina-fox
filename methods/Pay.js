@@ -17,7 +17,7 @@ module.exports = class Pay {
 				code: 2,
 				message: "You forgot the count parameter!"
 			}); 
-		};
+		}
 		let result = await (await fetch(`http://api.unf0x.ru/kristine-public-api/pay.getHistory?token=${this.options.token}&vk_user_id=${params.vk_user_id}&count=${params.count}`)).json();
 		if (result.error) {
 			throw new APIError({
