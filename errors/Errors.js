@@ -13,7 +13,7 @@ class APIError extends Error {
     this.message = message;
     this.code = code;
   }
-};
+}
 module.exports = {
 	ParamError,
 	APIError
