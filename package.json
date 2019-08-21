@@ -1,6 +1,6 @@
 {
   "name": "kristina-fox",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "description": "Модуль для взаимодействия с API Кристины Лис",
   "main": "index.js",
   "dependencies": {
